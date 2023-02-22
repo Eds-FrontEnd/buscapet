@@ -1,0 +1,94 @@
+body {
+  background-image: url(../img/planodefundo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 280px;
+  height: 350px;
+  background-color: var(--black);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+input {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+button {
+  padding: 0.5rem 1.3rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: none;
+  color: var(--white);
+  border: 2px solid;
+}
+
+.imgPet {
+  height: 175px;
+  border-radius: 50px;
+  margin-bottom: 95px !important;
+}
+
+.imgPet:nth-child(2) {
+  display: none;
+}
+
+.result {
+  color: var(--white);
+  text-align: center;
+}
+
+.result h3 {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+.result img {
+  margin-bottom: 43px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  bottom: 13px;
+  position: absolute;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    min-width: 280px;
+  }
+}
