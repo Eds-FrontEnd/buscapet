@@ -1,6 +1,6 @@
 # ⚡ Projeto
 ## 🚀 Bem-vindo ao projeto BuscaPet feito em Javascript Vanilla! 
-### 🐶 Este projeto foi desenvolvido em JavaScript Vanilla para buscar raças de pets utilizando a Dog API Free
+#### 🐶 Este projeto foi desenvolvido em JavaScript Vanilla para buscar raças de pets utilizando a Dog API Free
 ## Pré-requisitos
 
 Ter a extensão Live Server instalado no Visual Studio Code
