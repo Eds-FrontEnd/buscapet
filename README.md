@@ -1,6 +1,6 @@
 # ⚡ Projeto
-## 🚀 Bem-vindo ao projeto PokeApi feito em Javascript Vanilla! 
-### Este é um projeto consome os dados de uma API. 
+## 🚀 Bem-vindo ao projeto BuscaPet feito em Javascript Vanilla! 
+### Este é um projeto consome os dados da Dog API Free. 
 ## Pré-requisitos
 
 Ter a extensão Live Server instalado no Visual Studio Code
